@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-center{
+    color: aqua;
+}
+
+.container input::placeholder{
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+#result{
+    background-color: black;
+    color: aqua;
+    font-size: 42px;
+    text-align: right;
+    width: 270px;
+    height: 92px;
+    border:none;
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 100px;
+    height: 52px;
+    width: 65px;
+    cursor: pointer;
+}
